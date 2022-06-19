@@ -19,14 +19,15 @@
 }
 
 .years-button{
+ font-family: 'Rajdhani', sans-serif;
  width: 20%;
  height: 10%;
  border-radius: 2px;
  background:#ffedfc;
  color: rgb(40, 9, 42);
  box-shadow: 0 0 10px 5px rgb(183, 41, 186);
- font-size:1.6rem;
- font-weight:500;
+ font-size:2rem;
+ font-weight:600;
  letter-spacing: 1px;
 }
 
