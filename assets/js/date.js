@@ -3,14 +3,14 @@ setInterval(() =>{
  const minutes = document.querySelector(".minutes");
  const seconds = document.querySelector(".seconds");
  const date_today = document.querySelector(".date-today p");
+ const dayWeek = ["lunes","martes","miercoles","jueves","viernes","sabado","domingo"];
+ const months = ["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"];
  
- const dayWeek = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
- const months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
  let date = new Date();
  
  hours.innerHTML = `${date.getHours()} :`;
  minutes.innerHTML = `${date.getMinutes()} :`;
  seconds.innerHTML = date.getSeconds();
- date_today.innerHTML = `${dayWeek[date.getDay()]} ${date.getDate()} of ${months[date.getMonth()]}`;
+ date_today.innerHTML = `${dayWeek[date.getDay()]} ${date.getDate()} de ${months[date.getMonth()]}`;
 },1000);
 

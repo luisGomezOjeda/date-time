@@ -23,7 +23,7 @@
 
         <div class="carousel-element">
           <div class ="date-container">
-            <div class ="date-time">
+            <div class ="date-time" lang="es">
              <p class = "hours"></p>
              <p class ="minutes"></p>
              <p class ="seconds"></p>
@@ -42,9 +42,9 @@
         </div>
         <div class="carousel-element">
           <div class = "time-container">
-            <input type="date" name="" class ="time-input-1">
-            <input type="date" name="" class ="time-input-2">
-            <button class = "years-button">calculate</button>
+            <input type="date" name="" class ="time-input">
+            <input type="date" name="" class ="time-input">
+            <button class = "years-button" onclick = "Time()">calculate</button>
             <p class = "time-result"></p>
           </div>
         </div>
@@ -56,9 +56,10 @@
     
   </section>
    </div>
+   <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.js"></script>
+   <script src="./assets/js/slider.js"></script>
   <script src = "./assets/js/date.js"></script>
   <script src = "./assets/js/calculate-years.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.js"></script>
-  <script src="./assets/js/slider.js"></script>
+  <script src = "./assets/js/calculate-time.js"></script>
 </body>
 </html>
