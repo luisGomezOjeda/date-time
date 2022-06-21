@@ -33,4 +33,30 @@
 .time-result{
  font-size:3rem;
  color: #fff;
+ text-align: center;
+}
+
+
+@media(max-width:815px){
+ .time-result{
+  font-size: 2rem;
+ }
+ .time-container{
+  margin-top: 0;
+ }
+ .time-input{
+  width: 70%;
+ }
+ .time-button{
+  width: 50%;
+ }
+}
+
+@media(max-width:350px){
+ .time-input{
+  width: 100%;
+ }
+ .time-button{
+  width: 80%;
+ }
 }

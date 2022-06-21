@@ -14,3 +14,4 @@ setInterval(() =>{
  date_today.innerHTML = `${dayWeek[date.getDay()]} ${date.getDate()} de ${months[date.getMonth()]}`;
 },1000);
 
+

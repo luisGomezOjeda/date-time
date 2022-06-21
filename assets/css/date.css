@@ -39,3 +39,27 @@ button.glider-dot.active{
  background: #fff;
  box-shadow: 0 0 10px 5px rgb(183, 41, 186);
 }
+
+@media(max-width:1240px){
+ div.date-time{
+  width: 100%;
+ }
+}
+
+@media(max-width:884px){
+ div.date-time{
+  font-size: 10rem;
+ }
+ .date-today p{
+  font-size:2.5rem;
+ }
+}
+
+@media(max-width:569px){
+ div.date-time{
+  font-size: 4rem;
+ }
+ .date-today p{
+  font-size:2rem;
+ }
+}

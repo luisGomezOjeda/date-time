@@ -22,6 +22,7 @@
 .years-button{
  font-family: 'Rajdhani', sans-serif;
  width: 20%;
+ 
  height: 10%;
  border-radius: 2px;
  background:#ffedfc;
@@ -35,4 +36,29 @@
 .years-result{
  font-size:3rem;
  color: #fff;
+ text-align:center;
+}
+
+@media(max-width:815px){
+ .years-result{
+  font-size: 2rem;
+ }
+ .years-container{
+  margin-top: 0;
+ }
+ .years-input{
+  width: 70%;
+ }
+ .years-button{
+  width: 50%;
+ }
+}
+
+@media(max-width:350px){
+ .years-input{
+  width: 100%;
+ }
+ .years-button{
+  width: 80%;
+ }
 }
