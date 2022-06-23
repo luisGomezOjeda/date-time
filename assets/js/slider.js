@@ -1,4 +1,4 @@
-export const w = window.addEventListener("load",()=>{
+export const slider = window.addEventListener("load",()=>{
   new Glider(document.querySelector(".carousel__list"), {
     slidesToShow: 1,
     dots: '.carousel-indicators',

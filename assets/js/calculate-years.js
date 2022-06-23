@@ -13,7 +13,7 @@ const calculateYears = newDate => {
 }
 const calculate_years = () =>calculateYears(years_input.value.split("-").join());
 
-export {years_input,years_result,calculate_years};
+export {calculate_years};
 
 
 
