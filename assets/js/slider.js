@@ -1,4 +1,4 @@
- window.addEventListener("load",()=>{
+window.addEventListener("load",()=>{
   new Glider(document.querySelector(".carousel__list"), {
     slidesToShow: 1,
     dots: '.carousel-indicators',

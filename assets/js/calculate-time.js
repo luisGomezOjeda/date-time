@@ -17,3 +17,5 @@ const Time = () => {
  if(time_input[0].value.length !== 0 || time_input[1].value.length !== 0 )calculateTime(time_input[0].value.split("-").join(),time_input[1].value.split("-").join());
  else alert("no ingresaste las fechas");
 }
+
+export{Time,time_input,time_result};

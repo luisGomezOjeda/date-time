@@ -1,4 +1,4 @@
-setInterval(() =>{
+export const local_time = setInterval(() =>{
  const hours = document.querySelector(".hours");
  const minutes = document.querySelector(".minutes");
  const seconds = document.querySelector(".seconds");
@@ -13,5 +13,6 @@ setInterval(() =>{
  seconds.innerHTML = date.getSeconds();
  date_today.innerHTML = `${dayWeek[date.getDay()]} ${date.getDate()} de ${months[date.getMonth()]}`;
 },1000);
+
 
 

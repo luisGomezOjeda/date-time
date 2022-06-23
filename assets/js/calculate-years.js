@@ -15,6 +15,10 @@ const calculateYears = newDate => {
  : years_result.innerHTML = `No hay diferencia, estamos en el año actual`;
 }
 
-const calculate_y = () =>calculateYears(years_input.value.split("-").join());
+const calculate_years = () =>calculateYears(years_input.value.split("-").join());
+
+export {years_input,years_result,calculate_years};
+
+
 
 
