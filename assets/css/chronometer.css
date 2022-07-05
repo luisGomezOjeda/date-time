@@ -1,0 +1,99 @@
+.chronometer-container{
+ width: 42%;
+ height: 90%;
+ min-width: 200px;
+ margin: auto;
+ border-radius: 100%;
+ border: 0.5px solid #fff;
+ box-shadow: 0 0 .2rem #fff,
+ 0 0 1rem rgb(251, 1, 255),
+ inset 0 0 1rem rgb(255, 0, 221); 
+
+ display: grid;
+ justify-items:center;
+ align-items:center;
+ grid-template-rows: 3fr 1fr 1fr;
+}
+
+.time-chronometer{
+ width: 60%;
+ height: 50%;
+ display: flex;
+ margin-top: 100px;
+ justify-content: center;
+ 
+ font-size: 6.5rem;
+ letter-spacing:2px;
+ color: rgb(255, 255, 255);
+ text-shadow: 0 0 10px rgb(111, 117, 195);
+}
+
+.chronometer-reset{
+  width: 25%;
+  height: 40px;
+  font-family: 'Rajdhani', sans-serif;
+  margin-bottom:50px;
+  border-radius: 2px;
+  background:#ffedfc;
+  color: rgb(40, 9, 42);
+  box-shadow: 0 0 10px 5px rgb(183, 41, 186);
+  letter-spacing: 1px;
+  font-size:1.8rem;
+ font-weight:600;
+ letter-spacing: 1px;
+ cursor: pointer;
+ 
+}
+
+.chronometer-container input[type="checkbox"]{
+display: none;
+}
+
+.chronometer-container input[type="checkbox"] + label{
+  width: 15%;
+  height:40px;
+  margin-bottom:30px;
+  border-radius: 2px;
+  background-color:#ffe1fa;
+  background-image:url("https://cdn-icons.flaticon.com/png/512/4889/premium/4889215.png?token=exp=1656908601~hmac=84366dd990d363925c67ea46e4c982bd");
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:contain;
+  box-shadow: 0 0 10px 5px rgb(183, 41, 186);
+  cursor:pointer;
+}
+
+.chronometer-container input[type="checkbox"]:checked + label{
+  background-image:url("https://cdn-icons.flaticon.com/png/512/4889/premium/4889234.png?token=exp=1656909035~hmac=cf855ebf902b222f571cc106ce5e6de2");
+}
+
+@media(max-width:978px){
+  .chronometer-container{
+    width: 320px;
+    height: 320px;
+  }
+  .time-chronometer p{
+    font-size:5rem;
+  }
+}
+@media(max-width:490px){
+  .chronometer-container{
+    width: 200px;
+    height: 210px;
+  }
+  .chronometer-container input[type="checkbox"] + label{
+    width: 30px;
+    height: 30px;
+    margin-bottom:10px;
+  }
+  .time-chronometer p{
+    font-size:3rem;
+  }
+  button.chronometer-reset{
+    font-size:1.2rem;
+    width: 55px;
+    height: 20px;
+    margin-top:0;
+    margin-bottom:80px;
+  }
+}

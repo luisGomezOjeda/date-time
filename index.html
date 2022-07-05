@@ -9,11 +9,13 @@
  <link rel="stylesheet" href="./assets/css/date.css">
  <link rel="stylesheet" href="./assets/css/calculate-years.css">
  <link rel="stylesheet" href="./assets/css/calculate-time.css">
+ <link rel="stylesheet" href="./assets/css/chronometer.css">
  <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500;600;700&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/16b7746f8e.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 <body>
   <section class = "carousel">
@@ -48,6 +50,14 @@
             <p class = "time-result"></p>
           </div>
         </div>
+        <div class="carousel-element">
+          <div class = "chronometer-container">
+            <div class ="time-chronometer"><p>00:00:00</p></div>
+            <input type="checkbox" id="chronometer-status" class ="chronometer-status">
+            <label for="chronometer-status"></label>
+            <button type="button" class ="chronometer-reset" onclick="reset()">reiniciar</button>
+          </div>
+        </div>
         
       </div>
       
@@ -58,5 +68,6 @@
    </div>
    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.js"></script>
    <script src = "./assets/js/index.js" type ="module"></script>
+   <!-- <script src = "./assets/js/chronometer.js"></script> -->
 </body>
 </html>
