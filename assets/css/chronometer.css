@@ -55,7 +55,7 @@ display: none;
   margin-bottom:30px;
   border-radius: 2px;
   background-color:#ffe1fa;
-  background-image:url("https://cdn-icons.flaticon.com/png/512/4889/premium/4889215.png?token=exp=1656908601~hmac=84366dd990d363925c67ea46e4c982bd");
+  background-image:url("./icons8-play-60.png");
   background-position:center;
   background-repeat:no-repeat;
   background-size:contain;
@@ -64,7 +64,7 @@ display: none;
 }
 
 .chronometer-container input[type="checkbox"]:checked + label{
-  background-image:url("https://cdn-icons.flaticon.com/png/512/4889/premium/4889234.png?token=exp=1656909035~hmac=cf855ebf902b222f571cc106ce5e6de2");
+  background-image:url("./icons8-pausa-60.png");
 }
 
 @media(max-width:978px){
